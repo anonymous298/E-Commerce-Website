@@ -957,9 +957,14 @@ main .sec4 {
   }
 
   #backToTopBtn {
-    bottom: 15px;
-    right: 25px;
+    bottom: 12px;
+    right: 18px;
     padding: 8px 14px;
+  }
+
+  #backToTopBtn svg {
+    width: 20px;
+    height: 20px;
   }
 
   nav .logo img {
