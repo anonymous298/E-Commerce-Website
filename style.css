@@ -1062,7 +1062,8 @@ main .sec4 {
 
   .sec1-inner-secondary-cards-container .sec1-inner-secondary-card .stars img,
   .sec5-container .sec5-cards-container .sec5-card .stars img {
-    width: 20px;
+    width: 15px;
+    object-fit: cover;
   }
 
   .sec1-inner-secondary-cards-container .sec1-inner-secondary-card h3,
