@@ -216,7 +216,7 @@ nav ul .nav-links li svg {
 }
 
 nav ul .nav-links li svg:hover {
-  fill: rgba(255, 255, 255, 0.345);
+  fill: #81bd02;
 }
 
 nav ul .cart svg {
