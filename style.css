@@ -36,6 +36,10 @@ body {
   pointer-events: none; /* Disable click when invisible */
 }
 
+#backToTopBtn:hover {
+  background-color: #aeff00;
+}
+
 #backToTopBtn svg {
   width: 30px;
   height: 30px;
