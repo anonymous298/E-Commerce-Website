@@ -668,6 +668,94 @@ main .sec4 {
   width: 95%;
 }
 
+main .sec6 {
+  /* min-height: 100dvh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 30px;
+  background-color: rgb(255, 248, 213);
+}
+
+.sec6 .sec6-container {
+  /* background-color: saddlebrown; */
+  width: 90%;
+  display: flex;
+  gap: 50px;
+  /* height: 80%; */
+}
+
+.sec6 .sec6-container .sec6-inner-primary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+  line-height: 50px;
+}
+
+
+
+.sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading p {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(69, 69, 69);
+  line-height: 24px;
+  padding: 20px 0;
+}
+
+.sec6 .sec6-container .sec6-inner-secondary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sec6 .sec6-container .sec6-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px 45px;
+  border-radius: 20px;
+}
+
+.sec6 .sec6-container .sec6-card img {
+  width: 30px;
+}
+
+.sec6 .sec6-container .sec6-card p {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(69, 69, 69);
+  line-height: 30px;
+}
+
+.sec6 .sec6-container .sec6-card .sec6-client {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.sec6 .sec6-container .sec6-card .sec6-client img {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.sec6 .sec6-container .sec6-card .sec6-client h4 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(69, 69, 69);
+  line-height: 24px;
+}
+
 @media only screen and (min-width: 1920px) {
   /* section {
         max-width: 1867.2px;
@@ -682,6 +770,7 @@ main .sec4 {
   .sec7 .sec7-container {
     max-width: 1867.2px;
   }
+
 }
 
 @media only screen and (max-width: 1800px) {
@@ -787,6 +876,30 @@ main .sec4 {
     padding: 40px 0;
     line-height: 1.6em;
     /* width: 500px; */
+  }
+
+  .sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading h2 {
+    font-size: 42px;
+  }
+
+  .sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading p {
+    font-size: 18px;
+  }
+
+  .sec6 .sec6-container .sec6-card img {
+    width: 28px;
+  }
+
+  .sec6 .sec6-container .sec6-card p {
+    font-size: 23px;
+  }
+
+  .sec6 .sec6-container .sec6-card .sec6-client img {
+    width: 60px;
+  }
+
+  .sec6 .sec6-container .sec6-card .sec6-client h4 {
+    font-size: 18px;
   }
 }
 
@@ -907,6 +1020,30 @@ main .sec4 {
     width: 100%;
     object-fit: cover;
   }
+
+  .sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading h2 {
+    font-size: 37px;
+  }
+
+  .sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading p {
+    font-size: 17px;
+  }
+
+  .sec6 .sec6-container .sec6-card {
+    padding: 40px 35px;
+  }
+
+  .sec6 .sec6-container .sec6-card p {
+    font-size: 20px;
+  }
+
+  .sec6 .sec6-container .sec6-card .sec6-client img {
+    width: 55px;
+  }
+
+  .sec6 .sec6-container .sec6-card .sec6-client h4 {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1025,6 +1162,39 @@ main .sec4 {
     /* height: 100%; */
     width: 100%;
     object-fit: cover;
+  }
+  .sec6 .sec6-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sec6 .sec6-container .sec6-inner-primary-container {
+    gap: 35px;
+  }
+
+  .sec6 .sec6-container .sec6-inner-primary-container .sec6-primary-container-heading p {
+    font-size: 18px;
+  }
+
+  .sec6 .sec6-container .sec6-card {
+    padding: 25px;
+    gap: 30px;
+  }
+
+  .sec6 .sec6-container .sec6-card img {
+    width: 26px;
+  }
+
+  .sec6 .sec6-container .sec6-card p {
+    font-size: 20px;
+  }
+
+  .sec6 .sec6-container .sec6-card .sec6-client img {
+    width: 60px;
+  }
+
+  .sec6 .sec6-container .sec6-card .sec6-client h4 {
+    font-size: 17px;
   }
 }
 @media only screen and (max-width: 800px) {
