@@ -21,9 +21,9 @@ body {
 
 #backToTopBtn {
   position: fixed;
-  bottom: 20px;
-  right: 30px;
-  padding: 7px 17px;
+  bottom: 15px;
+  right: 20px;
+  padding: 4px 10px;
   font-size: 18px;
   border: none;
   border-radius: 8px;
